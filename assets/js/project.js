@@ -1,5 +1,10 @@
 const projectData = {
     'bookswage': {
+        name: 'Bookswage',
+        info: 'Bookswage 콘텐츠 통합 보안 관제 서버',
+        thum: './assets/img/thum/pf_bookswage.png',
+        category: 'Desktop',
+        aosDelay: 0,
         title: 'Bookswage 콘텐츠 통합 보안 관제 서버',
         company: '북틀',
         url: 'https://project-bookswage.netlify.app/dashboard',
@@ -10,15 +15,15 @@ const projectData = {
         part: '퍼블리싱 (100%)',
         scope: 'PC',
         skill: 'HTML5, SCSS, JavaScript, jQuery, Chart, Datepicker, Figma, Git, GitHub',
-        thum: [
-            './assets/img/thum/bookswage/1.png',
-            './assets/img/thum/bookswage/2.png',
-            './assets/img/thum/bookswage/3.png',
-            './assets/img/thum/bookswage/4.png',
-            './assets/img/thum/bookswage/5.png',
-            './assets/img/thum/bookswage/6.png',
-            './assets/img/thum/bookswage/7.png',
-            './assets/img/thum/bookswage/8.png',
+        screen: [
+            './assets/img/screen/bookswage/1.png',
+            './assets/img/screen/bookswage/2.png',
+            './assets/img/screen/bookswage/3.png',
+            './assets/img/screen/bookswage/4.png',
+            './assets/img/screen/bookswage/5.png',
+            './assets/img/screen/bookswage/6.png',
+            './assets/img/screen/bookswage/7.png',
+            './assets/img/screen/bookswage/8.png',
         ],
         work: [
             '웹 표준과 접근성 원칙을 반영한 시맨틱 마크업을 적용하여 PC 전용 관리자 UI 개발 및 유지보수성 향상',
@@ -32,6 +37,11 @@ const projectData = {
         ]
     },
     'yes24': {
+        name: 'YES24',
+        info: 'YES24 크레마클럽 B2B 관리자 시스템',
+        thum: './assets/img/thum/pf_yes24.png',
+        category: 'Desktop',
+        aosDelay: 0,
         title: 'YES24 크레마클럽 B2B 관리자 시스템',
         company: '북틀',
         url: 'https://project-yes24.netlify.app/dashboard',
@@ -42,15 +52,15 @@ const projectData = {
         part: '퍼블리싱 (100%)',
         scope: 'PC',
         skill: 'HTML5, SCSS, JavaScript, jQuery, Gulp, Chart, Swiper, Figma, Git, GitHub',
-        thum: [
-            './assets/img/thum/yes24/1.png',
-            './assets/img/thum/yes24/2.png',
-            './assets/img/thum/yes24/3.png',
-            './assets/img/thum/yes24/4.png',
-            './assets/img/thum/yes24/5.png',
-            './assets/img/thum/yes24/6.png',
-            './assets/img/thum/yes24/7.png',
-            './assets/img/thum/yes24/8.png'
+        screen: [
+            './assets/img/screen/yes24/1.png',
+            './assets/img/screen/yes24/2.png',
+            './assets/img/screen/yes24/3.png',
+            './assets/img/screen/yes24/4.png',
+            './assets/img/screen/yes24/5.png',
+            './assets/img/screen/yes24/6.png',
+            './assets/img/screen/yes24/7.png',
+            './assets/img/screen/yes24/8.png'
         ],
         work: [
             '웹 표준 및 접근성을 고려한 시맨틱 마크업 기반 UI 설계 및 퍼블리싱으로 재사용성 및 유지보수성 확보',
@@ -66,6 +76,11 @@ const projectData = {
         ]
     },
     'ieumpay': {
+        name: 'ieumPAY',
+        info: 'ieumPAY 급여관리 아웃소싱 플랫폼',
+        thum: './assets/img/thum/pf_ieumpay.png',
+        category: 'Desktop',
+        aosDelay: 0,
         title: 'ieumPAY 급여관리 아웃소싱',
         company: '뉴젠피앤피',
         url: 'https://project-ieumpay.netlify.app/main',
@@ -76,13 +91,13 @@ const projectData = {
         part: '퍼블리싱 (100%)',
         scope: 'PC',
         skill: 'HTML5, CSS3, JavaScript, jQuery, Wijmo Grid, Figma, Git',
-        thum: [
-            './assets/img/thum/ieumpay/1.png',
-            './assets/img/thum/ieumpay/2.png',
-            './assets/img/thum/ieumpay/3.png',
-            './assets/img/thum/ieumpay/4.png',
-            './assets/img/thum/ieumpay/5.png',
-            './assets/img/thum/ieumpay/6.png'
+        screen: [
+            './assets/img/screen/ieumpay/1.png',
+            './assets/img/screen/ieumpay/2.png',
+            './assets/img/screen/ieumpay/3.png',
+            './assets/img/screen/ieumpay/4.png',
+            './assets/img/screen/ieumpay/5.png',
+            './assets/img/screen/ieumpay/6.png'
         ],
         work: [
             '웹 표준 및 접근성 가이드를 준수한 PC 전용 관리자 웹사이트 퍼블리싱 전담',
@@ -96,29 +111,34 @@ const projectData = {
         ]
     },
     'ieumtax': {
+        name: 'ieumTAX',
+        info: 'ieumTAX 세무신고 아웃소싱 플랫폼',
+        thum: './assets/img/thum/pf_ieumtax.png',
+        category: 'Desktop',
+        aosDelay: 100,
         title: 'ieumTAX 세무신고 아웃소싱',
         company: '뉴젠피앤피',
         url: '',
         device: 'web',
-        status: '보안 정책상 소스코드 제공이 어려워 작업 결과는 이미지를 통해 확인 가능합니다.',
+        status: '보안 정책상 사이트 접근 및 소스코드 제공이 불가합니다. 작업물은 상단의 이미지를 통해 확인 가능합니다.',
         summary: '기업 및 개인사업자의 복잡한 세무 신고 절차를 자동화하고, 다양한 업종과 납세 유형에 유연하게 대응할 수 있는 웹 기반 세무 아웃소싱 플랫폼입니다.',
         period: '2024.01 - 2024.12',
         part: '퍼블리싱 (50%)',
         scope: 'PC',
         skill: 'HTML5, CSS3, JavaScript, jQuery, Figma, Git, Wijmo Grid, SweetAlert2',
-        thum: [
-            './assets/img/thum/ieumtax/1.png',
-            './assets/img/thum/ieumtax/2.png',
-            './assets/img/thum/ieumtax/3.png',
-            './assets/img/thum/ieumtax/4.png',
-            './assets/img/thum/ieumtax/5.png',
-            './assets/img/thum/ieumtax/6.png',
-            './assets/img/thum/ieumtax/7.png',
-            './assets/img/thum/ieumtax/8.png',
-            './assets/img/thum/ieumtax/9.png',
-            './assets/img/thum/ieumtax/10.png',
-            './assets/img/thum/ieumtax/11.png',
-            './assets/img/thum/ieumtax/12.png'
+        screen: [
+            './assets/img/screen/ieumtax/1.png',
+            './assets/img/screen/ieumtax/2.png',
+            './assets/img/screen/ieumtax/3.png',
+            './assets/img/screen/ieumtax/4.png',
+            './assets/img/screen/ieumtax/5.png',
+            './assets/img/screen/ieumtax/6.png',
+            './assets/img/screen/ieumtax/7.png',
+            './assets/img/screen/ieumtax/8.png',
+            './assets/img/screen/ieumtax/9.png',
+            './assets/img/screen/ieumtax/10.png',
+            './assets/img/screen/ieumtax/11.png',
+            './assets/img/screen/ieumtax/12.png'
         ],
         work: [
             '기존 UI/UX 분석을 통한 정보 구조 및 시각 요소 개선',
@@ -132,6 +152,11 @@ const projectData = {
         ]
     },
     'newzenpnp': {
+        name: 'NewzenP&P',
+        info: 'NewzenP&P HR 아웃소싱 소개 및 안내 홈페이지',
+        thum: './assets/img/thum/pf_newzen.png',
+        category: 'Responsive',
+        aosDelay: 200,
         title: 'NewzenP&P 홈페이지 리뉴얼',
         company: '뉴젠피앤피',
         url: 'https://newzenpnp.co.kr/',
@@ -142,13 +167,13 @@ const projectData = {
         part: '퍼블리싱 (100%)',
         scope: 'Mobile, Pad, PC',
         skill: 'HTML5, CSS3, JavaScript, jQuery, Swiper, AOS, Figma, Git',
-        thum: [
-            './assets/img/thum/newzenpnp/1.png',
-            './assets/img/thum/newzenpnp/2.png',
-            './assets/img/thum/newzenpnp/3.png',
-            './assets/img/thum/newzenpnp/4.png',
-            './assets/img/thum/newzenpnp/5.png',
-            './assets/img/thum/newzenpnp/6.png'
+        screen: [
+            './assets/img/screen/newzenpnp/1.png',
+            './assets/img/screen/newzenpnp/2.png',
+            './assets/img/screen/newzenpnp/3.png',
+            './assets/img/screen/newzenpnp/4.png',
+            './assets/img/screen/newzenpnp/5.png',
+            './assets/img/screen/newzenpnp/6.png'
         ],
         work: [
             '웹 표준 및 접근성 원칙을 준수한 반응형 웹 퍼블리싱 전담',
@@ -163,6 +188,11 @@ const projectData = {
         ]
     },
     'eastwave': {
+        name: 'EASTWAVE',
+        info: 'EASTWAVE 케어 솔루션 소개 및 안내 홈페이지',
+        thum: './assets/img/thum/pf_eastwave.png',
+        category: 'Desktop',
+        aosDelay: 300,
         title: 'EASTWAVE 기업 홈페이지',
         company: '뉴젠피앤피',
         url: 'https://project-eastwave.netlify.app/main',
@@ -173,13 +203,13 @@ const projectData = {
         part: '퍼블리싱 (100%)',
         scope: 'PC',
         skill: 'HTML5, CSS3, JavaScript, jQuery, Swiper, Figma, Git',
-        thum: [
-            './assets/img/thum/eastwave/1.png',
-            './assets/img/thum/eastwave/2.png',
-            './assets/img/thum/eastwave/3.png',
-            './assets/img/thum/eastwave/4.png',
-            './assets/img/thum/eastwave/5.png',
-            './assets/img/thum/eastwave/6.png'
+        screen: [
+            './assets/img/screen/eastwave/1.png',
+            './assets/img/screen/eastwave/2.png',
+            './assets/img/screen/eastwave/3.png',
+            './assets/img/screen/eastwave/4.png',
+            './assets/img/screen/eastwave/5.png',
+            './assets/img/screen/eastwave/6.png'
         ],
         work: [
             '웹 표준 기반의 PC 전용 홈페이지 퍼블리싱 전담',
@@ -192,6 +222,11 @@ const projectData = {
         ]
     },
     'nuri_web': {
+        name: 'Nurifootball WEB',
+        info: 'Nurifootball WEB 축구 커뮤니티 및 NFT 기반 통합 플랫폼',
+        thum: './assets/img/thum/pf_nuri_web.png',
+        category: 'Responsive',
+        aosDelay: 0,
         title: 'Nurifootball WEB',
         company: '누리풋볼',
         url: 'https://project-nurifootball.netlify.app/main',
@@ -202,15 +237,15 @@ const projectData = {
         part: '퍼블리싱 (100%)',
         scope: 'Mobile, Pad, PC',
         skill: 'HTML5, CSS3, JavaScript, jQuery, AOS, XD, GitHub',
-        thum: [
-            './assets/img/thum/nurifootball_web/1.png',
-            './assets/img/thum/nurifootball_web/2.png',
-            './assets/img/thum/nurifootball_web/3.png',
-            './assets/img/thum/nurifootball_web/4.png',
-            './assets/img/thum/nurifootball_web/5.png',
-            './assets/img/thum/nurifootball_web/6.png',
-            './assets/img/thum/nurifootball_web/7.png',
-            './assets/img/thum/nurifootball_web/8.png'
+        screen: [
+            './assets/img/screen/nurifootball_web/1.png',
+            './assets/img/screen/nurifootball_web/2.png',
+            './assets/img/screen/nurifootball_web/3.png',
+            './assets/img/screen/nurifootball_web/4.png',
+            './assets/img/screen/nurifootball_web/5.png',
+            './assets/img/screen/nurifootball_web/6.png',
+            './assets/img/screen/nurifootball_web/7.png',
+            './assets/img/screen/nurifootball_web/8.png'
         ],
         work: [
             '웹 표준 및 접근성 원칙을 준수한 반응형 웹사이트 퍼블리싱 전담',
@@ -227,6 +262,11 @@ const projectData = {
         ]
     },
     'nuri_app': {
+        name: 'Nurifootball APP',
+        info: 'Nurifootball APP 축구 커뮤니티 및 승부예측 플랫폼',
+        thum: './assets/img/thum/pf_nuri_app.png',
+        category: 'Mobile',
+        aosDelay: 100,
         title: 'Nurifootball APP',
         company: '누리풋볼',
         url: 'https://project-nurifootball-app.netlify.app/main',
@@ -237,13 +277,13 @@ const projectData = {
         part: '퍼블리싱 (100%)',
         scope: 'Mobile, Pad',
         skill: 'HTML5, CSS3, JavaScript, jQuery, XD, GitHub',
-        thum: [
-            './assets/img/thum/nurifootball_app/1.png',
-            './assets/img/thum/nurifootball_app/2.png',
-            './assets/img/thum/nurifootball_app/3.png',
-            './assets/img/thum/nurifootball_app/4.png',
-            './assets/img/thum/nurifootball_app/5.png',
-            './assets/img/thum/nurifootball_app/6.png'
+        screen: [
+            './assets/img/screen/nurifootball_app/1.png',
+            './assets/img/screen/nurifootball_app/2.png',
+            './assets/img/screen/nurifootball_app/3.png',
+            './assets/img/screen/nurifootball_app/4.png',
+            './assets/img/screen/nurifootball_app/5.png',
+            './assets/img/screen/nurifootball_app/6.png'
         ],
         work: [
             '하이브리드 앱 환경 최적화 모바일 중심 반응형 퍼블리싱 전담',
@@ -259,6 +299,11 @@ const projectData = {
         ]
     },
     'nuri_nft': {
+        name: 'Nurifootball NTF',
+        info: 'Nurifootball NTF 축구 NFT 이커머스 플랫폼',
+        thum: './assets/img/thum/pf_nuri_nft.png',
+        category: 'Responsive',
+        aosDelay: 200,
         title: 'Nurifootball NFT 이커머스',
         company: '누리풋볼',
         url: 'https://project-nurifootball-nft.netlify.app/main',
@@ -269,13 +314,13 @@ const projectData = {
         part: '퍼블리싱 (100%)',
         scope: 'Mobile, Pad, PC',
         skill: 'HTML5, CSS3, JavaScript, jQuery, XD, GitHub',
-        thum: [
-            './assets/img/thum/nurifootball_nft/1.png',
-            './assets/img/thum/nurifootball_nft/2.png',
-            './assets/img/thum/nurifootball_nft/3.png',
-            './assets/img/thum/nurifootball_nft/4.png',
-            './assets/img/thum/nurifootball_nft/5.png',
-            './assets/img/thum/nurifootball_nft/6.png'
+        screen: [
+            './assets/img/screen/nurifootball_nft/1.png',
+            './assets/img/screen/nurifootball_nft/2.png',
+            './assets/img/screen/nurifootball_nft/3.png',
+            './assets/img/screen/nurifootball_nft/4.png',
+            './assets/img/screen/nurifootball_nft/5.png',
+            './assets/img/screen/nurifootball_nft/6.png'
         ],
         work: [
             '웹 표준 및 접근성 준수 반응형 웹 퍼블리싱 전담',
@@ -291,6 +336,11 @@ const projectData = {
         ]
     },
     'moneyswap': {
+        name: 'MoenySwap',
+        info: 'MoenySwap 가상자산 디파이(DeFi) 플랫폼',
+        thum: './assets/img/thum/pf_moneyswap.png',
+        category: 'Mobile',
+        aosDelay: 300,
         title: 'MoenySwap 디파이(DeFi)',
         company: '누리풋볼',
         url: 'https://project-moneyswap.netlify.app/main',
@@ -301,13 +351,13 @@ const projectData = {
         part: '퍼블리싱 (100%)',
         scope: 'Mobile, Pad',
         skill: 'HTML5, CSS3, JavaScript, jQuery, touchSwipe, XD, GitHub',
-        thum: [
-            './assets/img/thum/moneyswap/1.png',
-            './assets/img/thum/moneyswap/2.png',
-            './assets/img/thum/moneyswap/3.png',
-            './assets/img/thum/moneyswap/4.png',
-            './assets/img/thum/moneyswap/5.png',
-            './assets/img/thum/moneyswap/6.png'
+        screen: [
+            './assets/img/screen/moneyswap/1.png',
+            './assets/img/screen/moneyswap/2.png',
+            './assets/img/screen/moneyswap/3.png',
+            './assets/img/screen/moneyswap/4.png',
+            './assets/img/screen/moneyswap/5.png',
+            './assets/img/screen/moneyswap/6.png'
         ],
         work: [
             '하이브리드 앱 환경 최적화 모바일 중심 반응형 퍼블리싱 전담',
@@ -321,6 +371,11 @@ const projectData = {
         ]
     },
     'trcl': {
+        name: 'Treecle',
+        info: 'Treecle 차량 커뮤니티 및 NFT 기반 통합 플랫폼',
+        thum: './assets/img/thum/pf_trcl.png',
+        category: 'Mobile',
+        aosDelay: 0,
         title: 'TRCL 가상자산 이커머스',
         company: '누리풋볼',
         url: 'https://project-trcl.netlify.app/main',
@@ -331,15 +386,15 @@ const projectData = {
         part: '퍼블리싱 (100%)',
         scope: 'Mobile, Pad',
         skill: 'HTML5, CSS3, JavaScript, jQuery, touchSwipe, autosize, XD, GitHub',
-        thum: [
-            './assets/img/thum/trcl/1.png',
-            './assets/img/thum/trcl/2.png',
-            './assets/img/thum/trcl/3.png',
-            './assets/img/thum/trcl/4.png',
-            './assets/img/thum/trcl/5.png',
-            './assets/img/thum/trcl/6.png',
-            './assets/img/thum/trcl/7.png',
-            './assets/img/thum/trcl/8.png'
+        screen: [
+            './assets/img/screen/trcl/1.png',
+            './assets/img/screen/trcl/2.png',
+            './assets/img/screen/trcl/3.png',
+            './assets/img/screen/trcl/4.png',
+            './assets/img/screen/trcl/5.png',
+            './assets/img/screen/trcl/6.png',
+            './assets/img/screen/trcl/7.png',
+            './assets/img/screen/trcl/8.png'
         ],
         work: [
             '하이브리드 앱 환경 최적화 모바일 중심 반응형 퍼블리싱 전담',
@@ -357,6 +412,11 @@ const projectData = {
         ]
     },
     'trcl_map': {
+        name: 'Treecle MAP',
+        info: 'Treecle MAP 전기차 및 교통 정보 지도 플랫폼',
+        thum: './assets/img/thum/pf_trcl_map.png',
+        category: 'Mobile',
+        aosDelay: 100,
         title: 'TRCL 지도',
         company: '누리풋볼',
         url: 'https://project-trcl-map.netlify.app/map_gas',
@@ -367,10 +427,10 @@ const projectData = {
         part: '퍼블리싱 (100%)',
         scope: 'Mobile, Pad',
         skill: 'HTML5, CSS3, JavaScript, jQuery, Kakao Maps API, XD, GitHub',
-        thum: [
-            './assets/img/thum/trcl_map/1.png',
-            './assets/img/thum/trcl_map/2.png',
-            './assets/img/thum/trcl_map/3.png'
+        screen: [
+            './assets/img/screen/trcl_map/1.png',
+            './assets/img/screen/trcl_map/2.png',
+            './assets/img/screen/trcl_map/3.png'
         ],
         work: [
             '하이브리드 앱 환경 최적화 모바일 중심 반응형 퍼블리싱 전담',
@@ -386,6 +446,11 @@ const projectData = {
         ]
     },
     'heyst': {
+        name: 'Heyst',
+        info: 'Heyst NFT 마켓플레이스 플랫폼',
+        thum: './assets/img/thum/pf_heyst.png',
+        category: 'Desktop',
+        aosDelay: 200,
         title: 'Heyst 마켓플레이스',
         company: '누리풋볼',
         url: 'https://project-heyst.netlify.app/main',
@@ -396,15 +461,15 @@ const projectData = {
         part: '퍼블리싱 (100%)',
         scope: 'PC',
         skill: 'HTML5, CSS3, JavaScript, jQuery, Swiper, XD, Git',
-        thum: [
-            './assets/img/thum/heyst/1.png',
-            './assets/img/thum/heyst/2.png',
-            './assets/img/thum/heyst/3.png',
-            './assets/img/thum/heyst/4.png',
-            './assets/img/thum/heyst/5.png',
-            './assets/img/thum/heyst/6.png',
-            './assets/img/thum/heyst/7.png',
-            './assets/img/thum/heyst/8.png'
+        screen: [
+            './assets/img/screen/heyst/1.png',
+            './assets/img/screen/heyst/2.png',
+            './assets/img/screen/heyst/3.png',
+            './assets/img/screen/heyst/4.png',
+            './assets/img/screen/heyst/5.png',
+            './assets/img/screen/heyst/6.png',
+            './assets/img/screen/heyst/7.png',
+            './assets/img/screen/heyst/8.png'
         ],
         work: [
             '웹 표준 및 접근성 가이드 준수 PC 전용 웹사이트 퍼블리싱 전담',
@@ -418,6 +483,11 @@ const projectData = {
         ]
     },
     'heyst_admin': {
+        name: 'Heyst Admin',
+        info: 'Heyst Admin NFT 마켓플레이스 관리자 플랫폼',
+        thum: './assets/img/thum/pf_heyst_admin.png',
+        category: 'Responsive',
+        aosDelay: 300,
         title: 'Heyst 마켓플레이스 관리자',
         company: '누리풋볼',
         url: 'https://project-heyst-admin.netlify.app/main',
@@ -428,12 +498,12 @@ const projectData = {
         part: '퍼블리싱 (100%)',
         scope: 'Mobile, Pad, PC',
         skill: 'HTML5, CSS3, JavaScript, jQuery, Chart, XD, Git',
-        thum: [
-            './assets/img/thum/heyst_admin/1.png',
-            './assets/img/thum/heyst_admin/2.png',
-            './assets/img/thum/heyst_admin/3.png',
-            './assets/img/thum/heyst_admin/4.png',
-            './assets/img/thum/heyst_admin/5.png'
+        screen: [
+            './assets/img/screen/heyst_admin/1.png',
+            './assets/img/screen/heyst_admin/2.png',
+            './assets/img/screen/heyst_admin/3.png',
+            './assets/img/screen/heyst_admin/4.png',
+            './assets/img/screen/heyst_admin/5.png'
         ],
         work: [
             '웹 표준 및 웹 접근성 준수 반응형 웹 퍼블리싱 전담',
@@ -447,6 +517,11 @@ const projectData = {
         ]
     },
     'kstar': {
+        name: 'K-Star',
+        info: 'K-Star NFT 이커머스 플랫폼',
+        thum: './assets/img/thum/pf_kstar.png',
+        category: 'Responsive',
+        aosDelay: 0,
         title: 'KStar-Live NFT 이커머스',
         company: '누리풋볼',
         url: 'https://project-kstar.netlify.app/main',
@@ -457,15 +532,15 @@ const projectData = {
         part: '퍼블리싱 (100%)',
         scope: 'Mobile, Pad, PC',
         skill: 'HTML5, CSS3, JavaScript, jQuery, XD, Git',
-        thum: [
-            './assets/img/thum/kstar/1.png',
-            './assets/img/thum/kstar/2.png',
-            './assets/img/thum/kstar/3.png',
-            './assets/img/thum/kstar/4.png',
-            './assets/img/thum/kstar/5.png',
-            './assets/img/thum/kstar/6.png',
-            './assets/img/thum/kstar/7.png',
-            './assets/img/thum/kstar/8.png'
+        screen: [
+            './assets/img/screen/kstar/1.png',
+            './assets/img/screen/kstar/2.png',
+            './assets/img/screen/kstar/3.png',
+            './assets/img/screen/kstar/4.png',
+            './assets/img/screen/kstar/5.png',
+            './assets/img/screen/kstar/6.png',
+            './assets/img/screen/kstar/7.png',
+            './assets/img/screen/kstar/8.png'
         ],
         work: [
             '웹 표준 및 웹 접근성 준수 반응형 웹 퍼블리싱 전담',
@@ -482,6 +557,11 @@ const projectData = {
         ]
     },
     'pandori': {
+        name: 'Pandori',
+        info: 'Pandori 가상자산 커뮤니티 및 강의 플랫폼',
+        thum: './assets/img/thum/pf_pandori.png',
+        category: 'Mobile',
+        aosDelay: 100,
         title: 'Pandori 가상자산 커뮤니티',
         company: '누리풋볼',
         url: 'https://project-pandori.netlify.app/main',
@@ -492,15 +572,15 @@ const projectData = {
         part: '퍼블리싱 (100%)',
         scope: 'Mobile, Pad',
         skill: 'HTML5, CSS3, JavaScript, jQuery, autosize, XD, Git',
-        thum: [
-            './assets/img/thum/pandori/1.png',
-            './assets/img/thum/pandori/2.png',
-            './assets/img/thum/pandori/3.png',
-            './assets/img/thum/pandori/4.png',
-            './assets/img/thum/pandori/5.png',
-            './assets/img/thum/pandori/6.png',
-            './assets/img/thum/pandori/7.png',
-            './assets/img/thum/pandori/8.png'
+        screen: [
+            './assets/img/screen/pandori/1.png',
+            './assets/img/screen/pandori/2.png',
+            './assets/img/screen/pandori/3.png',
+            './assets/img/screen/pandori/4.png',
+            './assets/img/screen/pandori/5.png',
+            './assets/img/screen/pandori/6.png',
+            './assets/img/screen/pandori/7.png',
+            './assets/img/screen/pandori/8.png'
         ],
         work: [
             '하이브리드 앱 환경 최적화 모바일 중심 반응형 퍼블리싱 전담',
@@ -516,6 +596,11 @@ const projectData = {
         ]
     },
     'predicto': {
+        name: 'Predicto',
+        info: 'Predicto 가상자산 현황 플랫폼',
+        thum: './assets/img/thum/pf_predicto.png',
+        category: 'Responsive',
+        aosDelay: 200,
         title: 'Predicto 가상자산 현황',
         company: '누리풋볼',
         url: 'https://project-predicto.netlify.app/main',
@@ -526,10 +611,10 @@ const projectData = {
         part: '퍼블리싱 (100%)',
         scope: 'Mobile, Pad, PC',
         skill: 'HTML5, CSS3, JavaScript, jQuery, Donut Chart, XD, Git',
-        thum: [
-            './assets/img/thum/predicto/1.png',
-            './assets/img/thum/predicto/2.png',
-            './assets/img/thum/predicto/3.png'
+        screen: [
+            './assets/img/screen/predicto/1.png',
+            './assets/img/screen/predicto/2.png',
+            './assets/img/screen/predicto/3.png'
         ],
         work: [
             '웹 표준 및 웹 접근성 준수 반응형 웹 퍼블리싱 전담',
@@ -543,6 +628,11 @@ const projectData = {
         ]
     },
     'gomdori': {
+        name: 'Gomdori',
+        info: 'Gomdori 가상자산 소개 안내용 홈페이지',
+        thum: './assets/img/thum/pf_gomdori.png',
+        category: 'Responsive',
+        aosDelay: 300,
         title: 'Gomdori 가상자산 소개',
         company: '누리풋볼',
         url: 'https://project-gomdori.netlify.app/main',
@@ -553,11 +643,11 @@ const projectData = {
         part: '퍼블리싱 (100%)',
         scope: 'Mobile, Pad, PC',
         skill: 'HTML5, CSS3, JavaScript, jQuery, AOS, XD, Git',
-        thum: [
-            './assets/img/thum/gomdori/1.png',
-            './assets/img/thum/gomdori/2.png',
-            './assets/img/thum/gomdori/3.png',
-            './assets/img/thum/gomdori/4.png'
+        screen: [
+            './assets/img/screen/gomdori/1.png',
+            './assets/img/screen/gomdori/2.png',
+            './assets/img/screen/gomdori/3.png',
+            './assets/img/screen/gomdori/4.png'
         ],
         work: [
             '웹 표준 및 웹 접근성 준수 반응형 웹 퍼블리싱 전담',
@@ -571,6 +661,11 @@ const projectData = {
         ]
     },
     'happyosan': {
+        name: 'HappyOsan',
+        info: 'HappyOsan 병원 소개 및 안내용 홈페이지',
+        thum: './assets/img/thum/pf_happyosan.png',
+        category: 'Responsive',
+        aosDelay: 0,
         title: '행복을주는의원 병원 소개',
         company: '부모시대',
         url: 'https://happyosan.com/',
@@ -581,12 +676,12 @@ const projectData = {
         part: '전체적인 개발 (100%)',
         scope: 'Mobile, Pad, PC',
         skill: 'HTML5, CSS3, JavaScript, jQuery, Node, MySQL, Git',
-        thum: [
-            './assets/img/thum/happyosan/1.png',
-            './assets/img/thum/happyosan/2.png',
-            './assets/img/thum/happyosan/3.png',
-            './assets/img/thum/happyosan/4.png',
-            './assets/img/thum/happyosan/5.png'
+        screen: [
+            './assets/img/screen/happyosan/1.png',
+            './assets/img/screen/happyosan/2.png',
+            './assets/img/screen/happyosan/3.png',
+            './assets/img/screen/happyosan/4.png',
+            './assets/img/screen/happyosan/5.png'
         ],
         work: [
             'Envato 유료 템플릿 기반 병원 맞춤 UI/UX 커스터마이징 및 전체 개발 전담',
@@ -601,6 +696,11 @@ const projectData = {
         ]
     },
     'daisy': {
+        name: 'Daisy Care',
+        info: 'Daisy Care 보호센터 소개 및 안내용 홈페이지',
+        thum: './assets/img/thum/pf_daisy.png',
+        category: 'Responsive',
+        aosDelay: 100,
         title: '데이지주야간보호센터 병원 소개',
         company: '부모시대',
         url: 'https://daisypc.com/',
@@ -611,12 +711,12 @@ const projectData = {
         part: '전체적인 개발 (100%)',
         scope: 'Mobile, Pad, PC',
         skill: 'HTML5, CSS3, JavaScript, jQuery, Node, MySQL, Git',
-        thum: [
-            './assets/img/thum/daisy/1.png',
-            './assets/img/thum/daisy/2.png',
-            './assets/img/thum/daisy/3.png',
-            './assets/img/thum/daisy/4.png',
-            './assets/img/thum/daisy/5.png'
+        screen: [
+            './assets/img/screen/daisy/1.png',
+            './assets/img/screen/daisy/2.png',
+            './assets/img/screen/daisy/3.png',
+            './assets/img/screen/daisy/4.png',
+            './assets/img/screen/daisy/5.png'
         ],
         work: [
             'Envato 유료 템플릿 기반 병원 맞춤 UI/UX 커스터마이징 및 전체 개발 전담',
@@ -631,6 +731,11 @@ const projectData = {
         ]
     },
     'brainmap_info': {
+        name: 'BrainMap 소개',
+        info: 'BrainMap 소개 헬스케어 소개 및 안내용 홈페이지',
+        thum: './assets/img/thum/pf_brainmap_info.png',
+        category: 'Responsive',
+        aosDelay: 200,
         title: 'BrainMap 기업 소개',
         company: '부모시대',
         url: 'https://brainmap.biz/',
@@ -641,12 +746,12 @@ const projectData = {
         part: '전체적인 개발 (100%)',
         scope: 'Mobile, Pad, PC',
         skill: 'HTML5, CSS3, JavaScript, jQuery, Node, Git',
-        thum: [
-            './assets/img/thum/brainmap_info/1.png',
-            './assets/img/thum/brainmap_info/2.png',
-            './assets/img/thum/brainmap_info/3.png',
-            './assets/img/thum/brainmap_info/4.png',
-            './assets/img/thum/brainmap_info/5.png'
+        screen: [
+            './assets/img/screen/brainmap_info/1.png',
+            './assets/img/screen/brainmap_info/2.png',
+            './assets/img/screen/brainmap_info/3.png',
+            './assets/img/screen/brainmap_info/4.png',
+            './assets/img/screen/brainmap_info/5.png'
         ],
         work: [
             'Envato 유료 템플릿 기반 기업 맞춤 UI/UX 커스터마이징 및 전체 개발 전담',
@@ -660,20 +765,25 @@ const projectData = {
         ]
     },
     'brainmap': {
+        name: 'BrainMap',
+        info: 'BrainMap 전자의무기록(EMR) 플랫폼',
+        thum: './assets/img/thum/pf_brainmap.png',
+        category: 'Desktop',
+        aosDelay: 300,
         title: 'BrainMap 전자의무기록(EMR)',
         company: '부모시대',
         url: '',
         device: 'web',
-        status: '보안 정책상 소스코드 제공이 어려워 작업 결과는 이미지를 통해 확인 가능합니다.',
+        status: '보안 정책상 소스코드 제공이 불가능하여, 작업 결과는 이미지를 통해 확인 가능합니다.',
         summary: '정신과 전문의용 전자의무기록 시스템으로 환자 상태 및 기록 분석, 맞춤형 치료 계획 수립 지원 웹 플랫폼입니다.',
         period: '2018.12 - 2019.05',
         part: '프론트엔드 개발 (30%)',
         scope: 'PC',
         skill: 'HTML5, CSS3, JavaScript, jQuery, Node, MySQL, Chart, Git',
-        thum: [
-            './assets/img/thum/brainmap/1.png',
-            './assets/img/thum/brainmap/2.png',
-            './assets/img/thum/brainmap/3.png'
+        screen: [
+            './assets/img/screen/brainmap/1.png',
+            './assets/img/screen/brainmap/2.png',
+            './assets/img/screen/brainmap/3.png'
         ],
         work: [
             '임상평가 및 자가진단 검사 등록/수정/삭제 기능 구현으로 평가 데이터 관리 구축',

@@ -178,6 +178,24 @@ $(document).on('keydown', '.pf_box .lnb [role="tab"]', function (e) {
     }
 });
 
+//portfolio - list 생성
+function renderProjectList() {
+    for (const id in projectData) {
+        const data = projectData[id];
+        let projectItem = `<li class="item" id="${id}" role="button" tabindex="0" 
+                                data-category="${data.category}" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="${data.aosDelay}">
+                                <div>
+                                    <span><img src="${data.thum}" alt="${data.title}"></span>
+                                    <h3>${data.name}</h3>
+                                    <p>${data.info}</p>
+                                </div>
+                            </li>`;
+        $('.pf_box .group').append(projectItem);
+    }
+    if (typeof AOS !== 'undefined') AOS.refresh();
+}
+renderProjectList();
+
 //portfolio - modal - 열기
 $(document).on('click', '.pf_box .group .item', function () {
     $('.fab_box .more').removeClass('open');
@@ -201,7 +219,7 @@ $(document).on('click', '.pf_box .group .item', function () {
                             <article class="pm_swiperBox">
                                 <div class="swiper pm_swiper">
                                     <ul class="swiper-wrapper">
-                                        ${data.thum.map(src => `<li class="swiper-slide"><img src="${src}" alt="${data.title}"></li>`).join('')}
+                                        ${data.screen.map(src => `<li class="swiper-slide"><img src="${src}" alt="${data.title}"></li>`).join('')}
                                     </ul>
                                 </div>
                                 <div class="swiper-pagination"></div>
