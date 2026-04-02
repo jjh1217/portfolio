@@ -478,7 +478,6 @@ h2 {
                 }
                 .swiper-slide > img {
                     display: block;
-                    border-radius: 10px;
                     @include tablet-min {height: 300px;};
                     @include tablet-max {height: 340px;};
                 }

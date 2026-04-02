@@ -721,7 +721,6 @@ h2 {
 }
 .pm_box .pm_content .pm_swiperBox .pm_swiper.swiper .swiper-slide > img {
   display: block;
-  border-radius: 10px;
 }
 @media (min-width: 768px) {
   .pm_box .pm_content .pm_swiperBox .pm_swiper.swiper .swiper-slide > img {

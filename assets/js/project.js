@@ -394,7 +394,10 @@ const projectData = {
             './assets/img/screen/trcl/5.png',
             './assets/img/screen/trcl/6.png',
             './assets/img/screen/trcl/7.png',
-            './assets/img/screen/trcl/8.png'
+            './assets/img/screen/trcl/8.png',
+            './assets/img/screen/trcl/9.png',
+            './assets/img/screen/trcl/10.png',
+            './assets/img/screen/trcl/11.png'
         ],
         work: [
             '하이브리드 앱 환경 최적화 모바일 중심 반응형 퍼블리싱 전담',
@@ -503,7 +506,8 @@ const projectData = {
             './assets/img/screen/heyst_admin/2.png',
             './assets/img/screen/heyst_admin/3.png',
             './assets/img/screen/heyst_admin/4.png',
-            './assets/img/screen/heyst_admin/5.png'
+            './assets/img/screen/heyst_admin/5.png',
+            './assets/img/screen/heyst_admin/6.png'
         ],
         work: [
             '웹 표준 및 웹 접근성 준수 반응형 웹 퍼블리싱 전담',
