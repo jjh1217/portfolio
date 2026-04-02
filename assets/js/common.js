@@ -158,12 +158,12 @@ $(document).on('click', '.pf_box .lnb [role="tab"]', function (e) {
         $list.show();
         $visible.show(250);
         pfCount();
+        AOS.refresh();
     });
 });
 
 // portfolio - 보여주고 있는 프로젝트 갯수 설정
 function pfCount() {$('.pf_box .lnb > h3 > span').text($('.pf_box .group .item:visible').length)};
-pfCount();
 
 //portfolio - lnb 키보드 제어
 $(document).on('keydown', '.pf_box .lnb [role="tab"]', function (e) {
@@ -193,6 +193,7 @@ function renderProjectList() {
         $('.pf_box .group').append(projectItem);
     }
     if (typeof AOS !== 'undefined') AOS.refresh();
+    pfCount();
 }
 renderProjectList();
 
